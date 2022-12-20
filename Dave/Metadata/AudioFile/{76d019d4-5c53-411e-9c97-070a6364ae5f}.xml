@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{76d019d4-5c53-411e-9c97-070a6364ae5f}">
 		<property name="assetPath">
-			<value>RoboticVoice-SmallRobot-Insecure-Warning.wav</value>
+			<value>Test/RoboticVoice-SmallRobot-Insecure-Warning.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
