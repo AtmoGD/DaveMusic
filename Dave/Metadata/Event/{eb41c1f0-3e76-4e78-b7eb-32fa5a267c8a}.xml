@@ -376,6 +376,9 @@
 		<property name="color">
 			<value>Red Light 2</value>
 		</property>
+		<property name="volume">
+			<value>-10</value>
+		</property>
 		<property name="name">
 			<value>Binaural-Add</value>
 		</property>
@@ -680,6 +683,9 @@
 		<property name="color">
 			<value>Red Light 2</value>
 		</property>
+		<property name="volume">
+			<value>1</value>
+		</property>
 		<property name="name">
 			<value>Binaural-Add3</value>
 		</property>
@@ -880,6 +886,9 @@
 		<property name="color">
 			<value>Blue</value>
 		</property>
+		<property name="volume">
+			<value>2.5</value>
+		</property>
 		<property name="name">
 			<value>Base</value>
 		</property>
@@ -918,7 +927,6 @@
 		<relationship name="sounds">
 			<destination>{7d6817e6-8304-499f-8acc-9b8efa56b59b}</destination>
 			<destination>{dbea6286-fd79-4b15-a98c-f3229b70d9c9}</destination>
-			<destination>{177c4a48-855c-408e-b3fe-ed5d93708609}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionSourceSound" id="{16993137-4c3d-4b02-8d61-a4368fe1cd91}">
@@ -2062,6 +2070,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{594cdff4-907b-4fc6-a90a-51aa4bef5489}">
+		<property name="volume">
+			<value>-7.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{a7706f38-15b5-4c28-b9ce-db1d21c286d2}</destination>
 		</relationship>
@@ -2102,6 +2113,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{b9039cd9-45fc-48d3-bda1-80e672986d15}">
+		<property name="volume">
+			<value>-7.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{a7706f38-15b5-4c28-b9ce-db1d21c286d2}</destination>
 		</relationship>
@@ -2132,6 +2146,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{9053d06e-689f-42d5-97b8-f6e2b87c0f01}">
 		<relationship name="effects">
+			<destination>{dbca5f93-0213-448f-82d8-d033a0140f9a}</destination>
 			<destination>{dfee5f0e-2ff7-4753-8de2-c850569c4fb0}</destination>
 		</relationship>
 	</object>
@@ -2173,21 +2188,10 @@
 	</object>
 	<object class="SingleSound" id="{dbea6286-fd79-4b15-a98c-f3229b70d9c9}">
 		<property name="volume">
-			<value>-1.5</value>
+			<value>-7.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{a7706f38-15b5-4c28-b9ce-db1d21c286d2}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{177c4a48-855c-408e-b3fe-ed5d93708609}">
-		<property name="volume">
-			<value>-5.5</value>
-		</property>
-		<property name="pitch">
-			<value>-1.20000005</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{1ba7445b-6f08-420a-861a-25d8dea09039}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionSourceFadeOutCurve" id="{11bed9ac-c7a5-4e17-adb0-ff61c2798ffa}">
@@ -2998,6 +3002,32 @@
 			<value>0</value>
 		</property>
 	</object>
+	<object class="MultibandEqEffect" id="{dbca5f93-0213-448f-82d8-d033a0140f9a}">
+		<property name="filterTypeB">
+			<value>9</value>
+		</property>
+		<property name="filterTypeC">
+			<value>6</value>
+		</property>
+		<property name="frequencyA">
+			<value>963.149963</value>
+		</property>
+		<property name="frequencyB">
+			<value>190</value>
+		</property>
+		<property name="frequencyC">
+			<value>39</value>
+		</property>
+		<property name="qualityA">
+			<value>0.56048274</value>
+		</property>
+		<property name="qualityC">
+			<value>0.25999999</value>
+		</property>
+		<property name="gainB">
+			<value>7.5</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{dfee5f0e-2ff7-4753-8de2-c850569c4fb0}" />
 	<object class="AutomationPoint" id="{a0644cf7-5af0-484e-a69f-94e736676dd5}">
 		<property name="position">
@@ -3020,7 +3050,7 @@
 	</object>
 	<object class="AutomationPoint" id="{7325b928-5503-4498-aa20-3fff11c4ddb2}">
 		<property name="position">
-			<value>115.58810416666668</value>
+			<value>114</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -3452,7 +3482,7 @@
 			<value>1.20000005</value>
 		</property>
 		<property name="gainB">
-			<value>3</value>
+			<value>1.5</value>
 		</property>
 		<property name="gainC">
 			<value>-8.27586365</value>
