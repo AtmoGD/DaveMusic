@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{eb41c1f0-3e76-4e78-b7eb-32fa5a267c8a}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
-			<value>Level_Music_Drone</value>
+			<value>Ambience_Day</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -72,7 +75,7 @@
 			<destination>{49187132-58ce-4bbe-a9da-6a4d2e66de90}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{f62b82b4-4baa-4516-b7cd-4131a384d7ba}</destination>
+			<destination>{ce451ec6-0ccf-4e1d-b70b-22ee1ed46cf2}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{4568d34a-f09d-48da-b4dc-c87d967997fd}" />
@@ -1231,6 +1234,9 @@
 		</property>
 	</object>
 	<object class="EventMixerGroup" id="{a7dee59b-c577-4de7-9b71-b87acae114c1}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<property name="name">
 			<value>Sum</value>
 		</property>
@@ -1389,6 +1395,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{78b4a4d9-3d46-42a5-87e2-e6015f62a1a5}">
 		<relationship name="effects">
+			<destination>{d2dd9fc5-5560-4477-8d6f-d9acb61b6bef}</destination>
+			<destination>{c7bcdfa9-5b78-4fa0-b551-f5894424fb10}</destination>
 			<destination>{d393030d-8701-4ffd-bf2c-d1fa4645a38d}</destination>
 		</relationship>
 	</object>
@@ -2441,6 +2449,7 @@
 		<relationship name="effects">
 			<destination>{0ae19888-b1c4-4f31-b376-0aab53796041}</destination>
 			<destination>{be032748-50c5-470f-b6dd-7a87d002853f}</destination>
+			<destination>{4e993f24-8740-4271-9647-9df2a67d1712}</destination>
 			<destination>{3d48bcfd-bd50-4bdb-89ba-2309260bc48b}</destination>
 		</relationship>
 	</object>
@@ -2472,6 +2481,7 @@
 		<relationship name="effects">
 			<destination>{bb9ed6b2-10f0-4e61-aeac-1fbb5689d129}</destination>
 			<destination>{b9146fa6-019f-47a2-b3e8-8aeed726241b}</destination>
+			<destination>{99780e32-206a-45e8-8d48-c8b024b2db69}</destination>
 			<destination>{367c1b0e-f966-41ee-920a-691987d22e2e}</destination>
 			<destination>{6078b6b6-3102-461f-87c3-4032a0048cea}</destination>
 			<destination>{2d3b9e91-6a45-4f6b-ac69-f813a4737c0d}</destination>
@@ -2543,6 +2553,22 @@
 		<relationship name="parameter">
 			<destination>{4c8585cf-4a66-44eb-9f83-e0ef431e2b4a}</destination>
 		</relationship>
+	</object>
+	<object class="ThreeEQEffect" id="{d2dd9fc5-5560-4477-8d6f-d9acb61b6bef}">
+		<property name="lowGain">
+			<value>-6</value>
+		</property>
+		<property name="lowCrossover">
+			<value>640</value>
+		</property>
+		<property name="crossoverSlope">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{c7bcdfa9-5b78-4fa0-b551-f5894424fb10}">
+		<property name="threshold">
+			<value>-11</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{d393030d-8701-4ffd-bf2c-d1fa4645a38d}" />
 	<object class="AutomationPoint" id="{827b4198-c434-4139-a611-9329d9268629}">
@@ -3502,6 +3528,17 @@
 			<destination>{4f3e0721-a215-49ba-be0c-70a228faf60c}</destination>
 		</relationship>
 	</object>
+	<object class="CompressorEffect" id="{4e993f24-8740-4271-9647-9df2a67d1712}">
+		<property name="threshold">
+			<value>-25.5</value>
+		</property>
+		<property name="ratio">
+			<value>1.70000005</value>
+		</property>
+		<property name="gain">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{3d48bcfd-bd50-4bdb-89ba-2309260bc48b}" />
 	<object class="AutomationCurve" id="{88bce247-78e9-4a7a-bff0-2f2e170e64c3}">
 		<relationship name="parameter">
@@ -3547,7 +3584,7 @@
 		</relationship>
 		<relationship name="automationPoints">
 			<destination>{4617b3d4-e843-4649-abde-e1dc2cde2815}</destination>
-			<destination>{db6ce2c6-c5ee-4244-8f6e-2ae261e216d8}</destination>
+			<destination>{5ad76c0a-d731-4a8c-9adc-735a9249746e}</destination>
 		</relationship>
 	</object>
 	<object class="ChorusEffect" id="{bb9ed6b2-10f0-4e61-aeac-1fbb5689d129}">
@@ -3583,9 +3620,20 @@
 			<destination>{676d10a3-fe51-4132-a9ee-c4ee3e8187f5}</destination>
 		</relationship>
 	</object>
+	<object class="CompressorEffect" id="{99780e32-206a-45e8-8d48-c8b024b2db69}">
+		<property name="threshold">
+			<value>-34.5</value>
+		</property>
+		<property name="ratio">
+			<value>2</value>
+		</property>
+		<property name="gain">
+			<value>3.5</value>
+		</property>
+	</object>
 	<object class="DistortionEffect" id="{367c1b0e-f966-41ee-920a-691987d22e2e}">
 		<property name="level">
-			<value>0.879999995</value>
+			<value>0.719999969</value>
 		</property>
 	</object>
 	<object class="MultibandEqEffect" id="{6078b6b6-3102-461f-87c3-4032a0048cea}">
@@ -3593,13 +3641,13 @@
 			<value>9</value>
 		</property>
 		<property name="frequencyA">
-			<value>4800</value>
+			<value>5053.00928</value>
 		</property>
 		<property name="frequencyB">
 			<value>158.799927</value>
 		</property>
 		<property name="qualityA">
-			<value>0.476758599</value>
+			<value>0.267448276</value>
 		</property>
 		<property name="qualityB">
 			<value>0.399999976</value>
@@ -3613,10 +3661,13 @@
 	</object>
 	<object class="CompressorEffect" id="{2d3b9e91-6a45-4f6b-ac69-f813a4737c0d}">
 		<property name="threshold">
-			<value>-13</value>
+			<value>-27</value>
+		</property>
+		<property name="ratio">
+			<value>3.70000005</value>
 		</property>
 		<property name="gain">
-			<value>5.5</value>
+			<value>11</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{3fe0aa20-66d6-4f11-9f71-f1ca4c7e844b}" />
@@ -3836,18 +3887,21 @@
 	</object>
 	<object class="AutomationPoint" id="{4617b3d4-e843-4649-abde-e1dc2cde2815}">
 		<property name="position">
-			<value>0.78672316384180796</value>
+			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-8</value>
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>0.210371301</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{db6ce2c6-c5ee-4244-8f6e-2ae261e216d8}">
+	<object class="AutomationPoint" id="{5ad76c0a-d731-4a8c-9adc-735a9249746e}">
 		<property name="position">
-			<value>0.99011299435028244</value>
+			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-5</value>
+			<value>10</value>
 		</property>
 	</object>
 	<object class="Automator" id="{e65e765a-2c07-4ca6-864d-4e636e87cfd9}">

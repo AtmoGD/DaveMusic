@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{791e747b-b8b1-4e27-8f2c-6823fdf1d3f5}">
+		<property name="color">
+			<value>Magenta Light 1</value>
+		</property>
 		<property name="name">
 			<value>MONSTER_TripleHead_Attack</value>
 		</property>
@@ -8,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{aa812805-0890-420c-934d-e6860dea6711}</destination>
+			<destination>{6f070967-7ddb-4616-a38e-9ca64708594e}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{5f78660c-6205-4314-ba7a-1a08a04cca66}</destination>
