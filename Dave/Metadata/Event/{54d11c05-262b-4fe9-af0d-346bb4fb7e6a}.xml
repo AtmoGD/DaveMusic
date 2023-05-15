@@ -8,7 +8,7 @@
 			<value>NECRO_Dash</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{09d8aa98-8bf6-4afe-87db-5c77e269b197}</destination>
@@ -75,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{3e270f81-ecbf-4445-8553-18316a9c8924}">
+		<property name="volume">
+			<value>-6</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{865a01d7-3160-4948-bf37-e844c8031144}</destination>
 		</relationship>
@@ -99,7 +102,6 @@
 	<object class="MixerBusEffectChain" id="{865a01d7-3160-4948-bf37-e844c8031144}">
 		<relationship name="effects">
 			<destination>{7fe4d3d5-a453-48f1-a3f5-377e506023e5}</destination>
-			<destination>{47f29a95-76a0-4553-afe2-11c119842a9b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d0b36793-6a70-49a4-be6b-6e85e67b7acb}" />
@@ -110,5 +112,4 @@
 	</object>
 	<object class="MixerBusFader" id="{59a5f6e6-5c72-44fe-9e36-fa4b49a133f2}" />
 	<object class="MixerBusFader" id="{7fe4d3d5-a453-48f1-a3f5-377e506023e5}" />
-	<object class="SpatialiserEffect" id="{47f29a95-76a0-4553-afe2-11c119842a9b}" />
 </objects>
