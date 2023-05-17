@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{2086923f-7ef3-41a6-9eeb-bfcc256fab31}">
 		<property name="assetPath">
-			<value>Dave-Drone_Paul_Tape_Binaural_Add-004.wav</value>
+			<value>Music/Ambience Drone/Dave-Drone_Paul_Tape_Binaural_Add-004.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

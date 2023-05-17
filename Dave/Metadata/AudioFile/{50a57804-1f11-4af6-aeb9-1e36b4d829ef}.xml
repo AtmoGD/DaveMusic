@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{50a57804-1f11-4af6-aeb9-1e36b4d829ef}">
+		<property name="assetPath">
+			<value>Weird Xylo_H7-006.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.7391249999999996</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{256e74b5-90cf-40a5-812e-e31e90a6d3fd}</destination>
+		</relationship>
+	</object>
+</objects>

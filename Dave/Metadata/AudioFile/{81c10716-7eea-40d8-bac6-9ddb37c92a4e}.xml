@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{81c10716-7eea-40d8-bac6-9ddb37c92a4e}">
+		<property name="assetPath">
+			<value>Weird Xylo_Cmb5-007.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8.3478333333333339</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{256e74b5-90cf-40a5-812e-e31e90a6d3fd}</destination>
+		</relationship>
+	</object>
+</objects>

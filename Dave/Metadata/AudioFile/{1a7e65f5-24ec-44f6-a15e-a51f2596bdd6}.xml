@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{1a7e65f5-24ec-44f6-a15e-a51f2596bdd6}">
+		<property name="assetPath">
+			<value>String Chatter_C°7-001.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>7.3043541666666663</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{256e74b5-90cf-40a5-812e-e31e90a6d3fd}</destination>
+		</relationship>
+	</object>
+</objects>

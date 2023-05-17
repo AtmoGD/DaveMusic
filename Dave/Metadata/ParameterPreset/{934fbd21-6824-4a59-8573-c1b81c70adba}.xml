@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{934fbd21-6824-4a59-8573-c1b81c70adba}">
+		<property name="name">
+			<value>Music_BGD_Intensity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1609a189-7305-4482-bbdb-10e6bf54630c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{42c668f3-c35a-4c99-84af-1793abd05796}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{42c668f3-c35a-4c99-84af-1793abd05796}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

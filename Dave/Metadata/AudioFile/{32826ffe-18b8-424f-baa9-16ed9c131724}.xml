@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{32826ffe-18b8-424f-baa9-16ed9c131724}">
 		<property name="assetPath">
-			<value>Dave-Drone_tonal-Knife_Binaural-Add-006.wav</value>
+			<value>Music/Ambience Drone/Dave-Drone_tonal-Knife_Binaural-Add-006.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
