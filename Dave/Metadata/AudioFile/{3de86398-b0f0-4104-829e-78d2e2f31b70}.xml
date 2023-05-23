@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{3de86398-b0f0-4104-829e-78d2e2f31b70}">
 		<property name="assetPath">
-			<value>Weird Xylo_H7-003.wav</value>
+			<value>Music/RandomMusic/Weird Xylo_H7-003.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

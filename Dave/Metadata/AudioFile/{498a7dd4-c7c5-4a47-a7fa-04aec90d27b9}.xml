@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{498a7dd4-c7c5-4a47-a7fa-04aec90d27b9}">
 		<property name="assetPath">
-			<value>Necromancer_Shadow-dash.wav</value>
+			<value>Music/RandomMusic/Necromancer_Shadow-dash.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

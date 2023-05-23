@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{eac1fb35-e687-452c-94ec-51eaface6074}">
 		<property name="assetPath">
-			<value>Perc_Fill-005.wav</value>
+			<value>Music/RandomMusic/Perc_Fill-005.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

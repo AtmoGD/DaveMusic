@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{d2e2dd07-cbe7-4732-9b61-c88b49a20c96}">
 		<property name="assetPath">
-			<value>Ghost Bells_Cm-001.wav</value>
+			<value>Music/RandomMusic/Ghost Bells_Cm-001.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

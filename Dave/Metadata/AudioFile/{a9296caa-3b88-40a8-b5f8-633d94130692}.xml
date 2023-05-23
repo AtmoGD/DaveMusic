@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{a9296caa-3b88-40a8-b5f8-633d94130692}">
 		<property name="assetPath">
-			<value>Perc_Loop-003.wav</value>
+			<value>Music/RandomMusic/Perc_Loop-003.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{3aa59978-1aa5-4e97-a677-17db6e57ca67}">
 		<property name="assetPath">
-			<value>String Chatter_Cm-001.wav</value>
+			<value>Music/RandomMusic/String Chatter_Cm-001.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

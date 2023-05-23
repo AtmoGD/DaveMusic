@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{52660a19-1df4-45d5-b7ca-6dd6ea8352d4}">
 		<property name="assetPath">
-			<value>Nyckelharpa click_Fill-003.wav</value>
+			<value>Music/RandomMusic/Nyckelharpa click_Fill-003.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

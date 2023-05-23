@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{dcee72ab-e1f8-4f0d-9f9d-17d6423d1702}">
 		<property name="assetPath">
-			<value>MusicBox-Tremolo_H7-003.wav</value>
+			<value>Music/RandomMusic/MusicBox-Tremolo_H7-003.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

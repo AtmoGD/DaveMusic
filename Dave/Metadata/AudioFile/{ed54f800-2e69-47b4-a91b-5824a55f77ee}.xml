@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{ed54f800-2e69-47b4-a91b-5824a55f77ee}">
 		<property name="assetPath">
-			<value>Nyckelharpa click_Loop-001.wav</value>
+			<value>Music/RandomMusic/Nyckelharpa click_Loop-001.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

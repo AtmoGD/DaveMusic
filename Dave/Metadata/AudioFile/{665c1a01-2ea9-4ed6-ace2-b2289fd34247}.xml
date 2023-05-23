@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{665c1a01-2ea9-4ed6-ace2-b2289fd34247}">
 		<property name="assetPath">
-			<value>MusicBox-Tremolo_H7-006.wav</value>
+			<value>Music/RandomMusic/MusicBox-Tremolo_H7-006.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

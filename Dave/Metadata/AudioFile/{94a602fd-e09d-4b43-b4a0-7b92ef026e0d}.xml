@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{94a602fd-e09d-4b43-b4a0-7b92ef026e0d}">
 		<property name="assetPath">
-			<value>Ghost Bells_Cmb5-003.wav</value>
+			<value>Music/RandomMusic/Ghost Bells_Cmb5-003.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
