@@ -7010,6 +7010,7 @@
 		<relationship name="effects">
 			<destination>{e6afa901-7fad-4938-9442-bdc8c2e0e6aa}</destination>
 			<destination>{7f6d9df4-8a2f-4140-9354-e37a942e68f5}</destination>
+			<destination>{ea7c2d79-a087-45bb-8e86-38c8905c9ef8}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{df99e85a-458e-40e8-a136-d64806a2a61a}" />
@@ -8860,9 +8861,7 @@
 			<destination>{470d1193-3cdd-41cd-88ba-e46629a9acb1}</destination>
 		</relationship>
 	</object>
-	<object class="SilenceSound" id="{ea0cb1cd-658c-48d6-bc08-c8830ecc3e86}">
-		<property name="name" />
-	</object>
+	<object class="SilenceSound" id="{ea0cb1cd-658c-48d6-bc08-c8830ecc3e86}" />
 	<object class="PlayPercentage" id="{0f9f9169-ae87-4e61-8bf8-f48c3609f633}">
 		<property name="percentage">
 			<value>25</value>
@@ -9282,9 +9281,7 @@
 			<destination>{470d1193-3cdd-41cd-88ba-e46629a9acb1}</destination>
 		</relationship>
 	</object>
-	<object class="SilenceSound" id="{9a213fff-18d7-46f1-be86-420d30624c75}">
-		<property name="name" />
-	</object>
+	<object class="SilenceSound" id="{9a213fff-18d7-46f1-be86-420d30624c75}" />
 	<object class="PlayPercentage" id="{cf4ea94b-7b1b-4b5d-843d-3b5ec97c374e}">
 		<property name="percentage">
 			<value>50</value>
@@ -11672,9 +11669,7 @@
 			<destination>{0dea8d32-e476-4fbe-af59-8bb1c24e00f4}</destination>
 		</relationship>
 	</object>
-	<object class="SilenceSound" id="{6b1d1114-0694-46d8-a844-4f2b43ebf9a9}">
-		<property name="name" />
-	</object>
+	<object class="SilenceSound" id="{6b1d1114-0694-46d8-a844-4f2b43ebf9a9}" />
 	<object class="PlayPercentage" id="{195f2903-ca0a-419f-8410-51b5f1bceeac}">
 		<property name="percentage">
 			<value>20</value>
@@ -11773,9 +11768,7 @@
 			<destination>{0dea8d32-e476-4fbe-af59-8bb1c24e00f4}</destination>
 		</relationship>
 	</object>
-	<object class="SilenceSound" id="{41de41b4-a7dd-44e6-9456-454f4e08267a}">
-		<property name="name" />
-	</object>
+	<object class="SilenceSound" id="{41de41b4-a7dd-44e6-9456-454f4e08267a}" />
 	<object class="PlayPercentage" id="{9a873f23-b43b-45fd-89f0-1d0b94a10e4c}">
 		<property name="percentage">
 			<value>20</value>
@@ -11874,9 +11867,7 @@
 			<destination>{0dea8d32-e476-4fbe-af59-8bb1c24e00f4}</destination>
 		</relationship>
 	</object>
-	<object class="SilenceSound" id="{dcf2f135-774e-4f8b-9e78-25c68201bbb6}">
-		<property name="name" />
-	</object>
+	<object class="SilenceSound" id="{dcf2f135-774e-4f8b-9e78-25c68201bbb6}" />
 	<object class="PlayPercentage" id="{12345abc-fd90-4662-9608-5327e3724890}">
 		<property name="percentage">
 			<value>20</value>
@@ -11975,9 +11966,7 @@
 			<destination>{0dea8d32-e476-4fbe-af59-8bb1c24e00f4}</destination>
 		</relationship>
 	</object>
-	<object class="SilenceSound" id="{804a6b18-9e07-41d3-a871-e4b365203e84}">
-		<property name="name" />
-	</object>
+	<object class="SilenceSound" id="{804a6b18-9e07-41d3-a871-e4b365203e84}" />
 	<object class="PlayPercentage" id="{d1c4e284-0364-40d8-ba66-8414ae51b3ba}">
 		<property name="percentage">
 			<value>20</value>
@@ -12076,9 +12065,7 @@
 			<destination>{0dea8d32-e476-4fbe-af59-8bb1c24e00f4}</destination>
 		</relationship>
 	</object>
-	<object class="SilenceSound" id="{031dac41-b59f-4795-9f9f-7c14b8501269}">
-		<property name="name" />
-	</object>
+	<object class="SilenceSound" id="{031dac41-b59f-4795-9f9f-7c14b8501269}" />
 	<object class="PlayPercentage" id="{2c842693-608e-4980-b57c-4cdab0e8e26a}">
 		<property name="percentage">
 			<value>20</value>
@@ -13102,6 +13089,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{7f6d9df4-8a2f-4140-9354-e37a942e68f5}" />
+	<object class="GainEffect" id="{ea7c2d79-a087-45bb-8e86-38c8905c9ef8}">
+		<relationship name="modulators">
+			<destination>{12f1c913-5456-4e32-bfd5-b145f757b197}</destination>
+		</relationship>
+	</object>
 	<object class="AutomationPoint" id="{e234bb9b-3cb8-41b4-afad-6b5532449bcc}">
 		<property name="position">
 			<value>0</value>
@@ -20482,6 +20474,9 @@
 		<property name="value">
 			<value>-6</value>
 		</property>
+		<property name="curveShape">
+			<value>0.132367551</value>
+		</property>
 	</object>
 	<object class="AutomationPoint" id="{3762880c-2c72-4994-9cd5-9ae8a232da94}">
 		<property name="position">
@@ -20554,6 +20549,23 @@
 		<relationship name="automationCurves">
 			<destination>{35a06d9d-5a36-4639-944a-8ef1f5292730}</destination>
 		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{12f1c913-5456-4e32-bfd5-b145f757b197}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>gain</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>4000</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
 	</object>
 	<object class="RandomizerModulator" id="{f77ee08f-44ff-41bb-b73e-9dc40f81b1d6}">
 		<property name="nameOfPropertyBeingModulated">
@@ -20656,7 +20668,7 @@
 			<value>15.243432574430827</value>
 		</property>
 		<property name="value">
-			<value>-6</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{121950c6-dc6a-4925-9356-13ae52d45615}">
