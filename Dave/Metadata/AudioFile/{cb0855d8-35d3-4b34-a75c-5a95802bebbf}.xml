@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{cb0855d8-35d3-4b34-a75c-5a95802bebbf}">
 		<property name="assetPath">
-			<value>PartB_Transition_Keys.wav</value>
+			<value>Music/Menu/Part_B/PartB_Transition_Keys.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

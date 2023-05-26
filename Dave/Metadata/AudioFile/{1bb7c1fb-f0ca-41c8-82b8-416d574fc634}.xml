@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{1bb7c1fb-f0ca-41c8-82b8-416d574fc634}">
 		<property name="assetPath">
-			<value>Master_Outro1.wav</value>
+			<value>Music/Menu/Master_Outro1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

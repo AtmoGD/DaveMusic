@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{8cdc272e-2abf-4840-9e95-2615ede1a347}">
 		<property name="assetPath">
-			<value>Glockenspiel_Main_Melody.wav</value>
+			<value>Music/Menu/Part_Main/Glockenspiel_Main_Melody.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{3dc44e1f-9a73-4f8a-81ab-013ad50ed59f}">
 		<property name="assetPath">
-			<value>Marimba_Main_Melody.wav</value>
+			<value>Music/Menu/Part_Main/Marimba_Main_Melody.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

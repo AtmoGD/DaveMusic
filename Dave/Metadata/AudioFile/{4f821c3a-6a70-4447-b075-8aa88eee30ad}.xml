@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{4f821c3a-6a70-4447-b075-8aa88eee30ad}">
 		<property name="assetPath">
-			<value>Brass_Main_add2.wav</value>
+			<value>Music/Menu/Part_Main/Brass_Main_add2.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{044b3308-b8f1-423c-b8f0-7c05088a06c9}">
 		<property name="assetPath">
-			<value>E-Git_Chords_Main.wav</value>
+			<value>Music/Menu/Part_Main/E-Git_Chords_Main.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

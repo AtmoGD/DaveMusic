@@ -96,6 +96,11 @@
 			<destination>{080f3462-dec5-4138-9e6e-6031ff344138}</destination>
 			<destination>{525a7a00-59ec-4ae7-aac5-87a502c0c47c}</destination>
 			<destination>{05a7d243-0de6-45c8-87d2-88d42026e7c4}</destination>
+			<destination>{0aa14296-74b7-4749-969e-efb7523f9505}</destination>
+			<destination>{3ce777ff-e254-4ae5-bb6d-9c84b032ad9c}</destination>
+			<destination>{944b8a73-9f42-48a1-9d4c-3ef2ca4f7918}</destination>
+			<destination>{8aabdfa9-e2f3-4bdb-ace9-38a730db8157}</destination>
+			<destination>{cd44bdbd-f89b-44e5-bca1-13f7a032b017}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a8e18622-d8a3-4c81-8b96-32bb4e9e9c03}">
@@ -161,6 +166,31 @@
 	<object class="SingleSound" id="{05a7d243-0de6-45c8-87d2-88d42026e7c4}">
 		<relationship name="audioFile">
 			<destination>{665c1a01-2ea9-4ed6-ace2-b2289fd34247}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{0aa14296-74b7-4749-969e-efb7523f9505}">
+		<relationship name="audioFile">
+			<destination>{eeb28ae4-aa00-4904-98bf-98d963c3c12d}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{3ce777ff-e254-4ae5-bb6d-9c84b032ad9c}">
+		<relationship name="audioFile">
+			<destination>{a01ccac7-9726-413b-a52f-c336cbdc16cc}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{944b8a73-9f42-48a1-9d4c-3ef2ca4f7918}">
+		<relationship name="audioFile">
+			<destination>{9a0c8a5a-05a3-456c-a1cd-41831f45a806}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{8aabdfa9-e2f3-4bdb-ace9-38a730db8157}">
+		<relationship name="audioFile">
+			<destination>{ca608f82-80f4-4357-acdf-0af72492b341}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{cd44bdbd-f89b-44e5-bca1-13f7a032b017}">
+		<relationship name="audioFile">
+			<destination>{969756cf-bccd-45bf-9e7d-0ea7d29767f4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{d75bbcac-ba03-4f1a-bba3-924b0b9cd88c}">

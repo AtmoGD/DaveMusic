@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{5a8bb79a-09c2-4bc9-aad4-70bcb26b809f}">
 		<property name="assetPath">
-			<value>Mellotron_Main_Spook_Intro.wav</value>
+			<value>Music/Menu/Part_Main/Mellotron_Main_Spook_Intro.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

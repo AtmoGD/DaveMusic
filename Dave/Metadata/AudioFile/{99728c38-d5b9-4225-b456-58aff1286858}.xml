@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{99728c38-d5b9-4225-b456-58aff1286858}">
 		<property name="assetPath">
-			<value>Harp_add-pre.wav</value>
+			<value>Music/Menu/Part_Main/Harp_add-pre.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

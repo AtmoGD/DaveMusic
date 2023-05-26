@@ -5,7 +5,7 @@
 			<value>Music_BGD_Intensity</value>
 		</property>
 		<relationship name="folder">
-			<destination>{1609a189-7305-4482-bbdb-10e6bf54630c}</destination>
+			<destination>{8c61dba0-f7c0-4ba7-a609-9c0b9143432f}</destination>
 		</relationship>
 		<relationship name="parameter">
 			<destination>{42c668f3-c35a-4c99-84af-1793abd05796}</destination>
@@ -20,6 +20,32 @@
 		</property>
 		<property name="initialValue">
 			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{1aed7df3-4b29-43aa-b128-51297c19745a}</destination>
+		</relationship>
+	</object>
+	<object class="LFOModulator" id="{1aed7df3-4b29-43aa-b128-51297c19745a}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="shape">
+			<value>5</value>
+		</property>
+		<property name="rate">
+			<value>0.049999997</value>
+		</property>
+		<property name="beats">
+			<value>64</value>
+		</property>
+		<property name="phase">
+			<value>-156</value>
+		</property>
+		<property name="depth">
+			<value>100</value>
+		</property>
+		<property name="direction">
+			<value>100</value>
 		</property>
 	</object>
 </objects>

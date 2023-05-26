@@ -102,7 +102,11 @@
 			<destination>{f62b82b4-4baa-4516-b7cd-4131a384d7ba}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{22638e80-5c6d-4108-b652-f908869bcca8}" />
+	<object class="EventAutomatableProperties" id="{22638e80-5c6d-4108-b652-f908869bcca8}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{7f5e40cd-b84f-4c36-a3a2-3cb15c5e0411}" />
 	<object class="MarkerTrack" id="{c116c988-8a9c-46ce-9949-4293312553b0}" />
 	<object class="MarkerTrack" id="{1f74dea5-d02c-47bc-b19d-f170103c810e}" />
@@ -3852,7 +3856,6 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{fc2b6426-3a1b-4d9d-be75-51b235b9f9f2}">
-		<property name="name" />
 		<relationship name="audioFile">
 			<destination>{338b4c0b-c541-44d9-b382-bb128d6463ba}</destination>
 		</relationship>
@@ -3938,7 +3941,6 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{d3da57d0-d187-4536-9de4-8fbff6feb8a9}">
-		<property name="name" />
 		<relationship name="audioFile">
 			<destination>{338b4c0b-c541-44d9-b382-bb128d6463ba}</destination>
 		</relationship>
@@ -4208,9 +4210,7 @@
 			<destination>{e8063078-b4e5-43d2-976f-5556b684a3a2}</destination>
 		</relationship>
 	</object>
-	<object class="SilenceSound" id="{abc58bbd-9aa7-426c-85c2-f3f2ac2f11a9}">
-		<property name="name" />
-	</object>
+	<object class="SilenceSound" id="{abc58bbd-9aa7-426c-85c2-f3f2ac2f11a9}" />
 	<object class="PlayPercentage" id="{35ff4327-9703-420d-b24e-75a05fe1840d}">
 		<property name="percentage">
 			<value>30</value>

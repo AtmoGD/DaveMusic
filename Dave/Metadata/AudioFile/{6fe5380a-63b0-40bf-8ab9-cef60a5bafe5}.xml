@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{6fe5380a-63b0-40bf-8ab9-cef60a5bafe5}">
 		<property name="assetPath">
-			<value>Klarinette_Main_Melo2.wav</value>
+			<value>Music/Menu/Part_Main/Klarinette_Main_Melo2.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{8310560c-5514-4905-9424-79017aa69935}">
 		<property name="assetPath">
-			<value>Xylo_add3.wav</value>
+			<value>Music/Menu/Part_Main/Xylo_add3.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
