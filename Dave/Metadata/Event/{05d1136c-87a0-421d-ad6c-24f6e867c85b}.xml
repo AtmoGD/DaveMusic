@@ -65,7 +65,11 @@
 			<destination>{f62b82b4-4baa-4516-b7cd-4131a384d7ba}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{83364d20-3d55-4979-b748-1ddd0a908a66}" />
+	<object class="EventAutomatableProperties" id="{83364d20-3d55-4979-b748-1ddd0a908a66}">
+		<property name="priority">
+			<value>4</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{a88c1561-4e69-4bc5-8c3a-35e3e89103d1}" />
 	<object class="MarkerTrack" id="{e57cd5f9-2290-4fc2-b9e2-8fc539d25244}" />
 	<object class="GroupTrack" id="{edd89eff-0a04-448c-b1fb-b1cd57d17e03}">
@@ -420,7 +424,7 @@
 			<value>0</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.2547189</value>
+			<value>-1.00000048</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{9b262c1d-9f8f-4f0e-9a11-5ff12ff05009}">
