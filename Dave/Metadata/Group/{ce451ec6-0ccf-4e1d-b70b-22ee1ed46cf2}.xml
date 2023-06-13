@@ -19,9 +19,71 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{3c96a879-ef4a-40f8-8497-3c46dd30e2dc}">
 		<relationship name="effects">
+			<destination>{554d3b16-7cd9-4eef-96e0-107153db109b}</destination>
 			<destination>{eb8ead0f-d327-41d4-b345-5d2c2d4f2f5b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{38f9dbac-9f87-4ee8-8fe7-6f0578fea875}" />
+	<object class="MultibandEqEffect" id="{554d3b16-7cd9-4eef-96e0-107153db109b}">
+		<property name="filterTypeA">
+			<value>9</value>
+		</property>
+		<property name="filterTypeB">
+			<value>8</value>
+		</property>
+		<property name="frequencyA">
+			<value>250</value>
+		</property>
+		<property name="frequencyB">
+			<value>3703.19922</value>
+		</property>
+		<property name="qualityA">
+			<value>0.359999985</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{d75683df-bf60-4c22-af28-cab1de36415f}</destination>
+			<destination>{084bd317-866a-4cba-a649-10d98d9f5656}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{eb8ead0f-d327-41d4-b345-5d2c2d4f2f5b}" />
+	<object class="SidechainModulator" id="{d75683df-bf60-4c22-af28-cab1de36415f}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>gainA</value>
+		</property>
+		<property name="levelMode">
+			<value>1</value>
+		</property>
+		<property name="amount">
+			<value>-50</value>
+		</property>
+		<property name="attackTime">
+			<value>77</value>
+		</property>
+		<property name="releaseTime">
+			<value>2600</value>
+		</property>
+		<property name="minimumThreshold">
+			<value>-25</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{0fc95f29-2af2-4a78-8615-9d60b3ccff07}</destination>
+		</relationship>
+	</object>
+	<object class="SidechainModulator" id="{084bd317-866a-4cba-a649-10d98d9f5656}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>gainB</value>
+		</property>
+		<property name="levelMode">
+			<value>1</value>
+		</property>
+		<property name="amount">
+			<value>14</value>
+		</property>
+		<property name="releaseTime">
+			<value>760</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{0fc95f29-2af2-4a78-8615-9d60b3ccff07}</destination>
+		</relationship>
+	</object>
 </objects>
