@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ProfilerFolder" id="{70d0b396-6363-49f8-b06a-4ae91041765d}">
+		<property name="name">
+			<value>Live-Update-Checks</value>
+		</property>
+		<relationship name="folder">
+			<destination>{39362500-2a2d-4a0a-998d-68a34f65eefa}</destination>
+		</relationship>
+	</object>
+</objects>
