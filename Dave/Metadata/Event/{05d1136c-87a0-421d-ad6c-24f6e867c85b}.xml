@@ -113,6 +113,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{9aa595ea-2570-41c1-88de-b3480b0545d8}">
+		<relationship name="modulators">
+			<destination>{e25e8abf-92d6-4c7b-961f-6e48283562cf}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{6f8e2c58-b8d7-4150-9e21-725394d05917}</destination>
 		</relationship>
@@ -164,6 +167,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{83ffd479-06a2-4461-be1b-3d796fc26c44}">
+		<property name="volume">
+			<value>-1</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -256,7 +262,7 @@
 	</object>
 	<object class="NamedMarker" id="{edd103b9-754e-4594-bad6-1460a5658c57}">
 		<property name="position">
-			<value>10</value>
+			<value>12</value>
 		</property>
 		<property name="name">
 			<value>Transition to Fight</value>
@@ -304,10 +310,10 @@
 	</object>
 	<object class="TransitionRegion" id="{e58d5ae0-997d-496a-9ce9-3e0f5388446e}">
 		<property name="position">
-			<value>19</value>
+			<value>15.70956486042693</value>
 		</property>
 		<property name="length">
-			<value>4</value>
+			<value>7.29043513957307</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{b7cc51e6-abcd-40a4-8c02-c56a8a92b65c}</destination>
@@ -381,8 +387,26 @@
 			<destination>{21f9ed61-1170-41d4-b787-eb7dd57ccb9a}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{e25e8abf-92d6-4c7b-961f-6e48283562cf}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>800</value>
+		</property>
+		<property name="attackShape">
+			<value>-0.429262608</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{6f8e2c58-b8d7-4150-9e21-725394d05917}">
 		<relationship name="effects">
+			<destination>{9e32f8ac-7b38-4970-826d-415f127cadae}</destination>
 			<destination>{a3c3386c-7ff4-48c4-aa71-378928b2a8a9}</destination>
 		</relationship>
 	</object>
@@ -410,7 +434,7 @@
 	<object class="MixerBusPanner" id="{c236a050-aa4d-4d56-ba63-3dc7b57520d2}" />
 	<object class="ParameterCondition" id="{9a1dd5a1-80f4-426f-8c78-684db1944112}">
 		<property name="minimum">
-			<value>0.97499996423721313</value>
+			<value>0.89499998092651367</value>
 		</property>
 		<property name="maximum">
 			<value>1</value>
@@ -424,7 +448,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>0</value>
+			<value>0.10999999940395355</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{4c8585cf-4a66-44eb-9f83-e0ef431e2b4a}</destination>
@@ -454,6 +478,18 @@
 			<destination>{72fb2d00-c504-41de-8860-31c3bbb5d1ec}</destination>
 		</relationship>
 	</object>
+	<object class="MultibandEqEffect" id="{9e32f8ac-7b38-4970-826d-415f127cadae}">
+		<property name="filterTypeB">
+			<value>5</value>
+		</property>
+		<property name="frequencyB">
+			<value>300</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{df3d61f8-75ea-4282-a8ab-09ab0ec46c08}</destination>
+			<destination>{e2d1853c-a917-4590-8d32-9ff4000bf63b}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{a3c3386c-7ff4-48c4-aa71-378928b2a8a9}" />
 	<object class="AutomationPoint" id="{d47f20dc-7f5c-4982-b50e-b71089a6564f}">
 		<property name="position">
@@ -476,4 +512,38 @@
 	</object>
 	<object class="MixerBusFader" id="{b9d3c179-a537-4680-a77f-6d086ee59b91}" />
 	<object class="MixerBusFader" id="{fdb7fed9-5b49-4e3b-b6e4-b6181a1f3f26}" />
+	<object class="ADSRModulator" id="{df3d61f8-75ea-4282-a8ab-09ab0ec46c08}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>frequencyB</value>
+		</property>
+		<property name="attackTime">
+			<value>4200</value>
+		</property>
+		<property name="attackShape">
+			<value>-0.157229021</value>
+		</property>
+		<property name="peakValue">
+			<value>-100</value>
+		</property>
+		<property name="sustainValue">
+			<value>-100</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{e2d1853c-a917-4590-8d32-9ff4000bf63b}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>frequencyA</value>
+		</property>
+		<property name="attackTime">
+			<value>5800</value>
+		</property>
+		<property name="attackShape">
+			<value>-0.342218101</value>
+		</property>
+		<property name="peakValue">
+			<value>100</value>
+		</property>
+		<property name="sustainValue">
+			<value>100</value>
+		</property>
+	</object>
 </objects>
