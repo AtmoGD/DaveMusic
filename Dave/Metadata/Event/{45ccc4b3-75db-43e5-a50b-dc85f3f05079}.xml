@@ -76,6 +76,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{dcd73853-edae-4617-801d-e8663830e59f}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{ecee8f2b-cd98-429f-afb5-19c100434864}</destination>
 		</relationship>
@@ -99,7 +102,9 @@
 	<object class="MixerBusPanner" id="{a7935ddc-0c81-4b2b-a54c-ee89b2597168}" />
 	<object class="MixerBusEffectChain" id="{ecee8f2b-cd98-429f-afb5-19c100434864}">
 		<relationship name="effects">
+			<destination>{f986eb57-c8f8-4cb6-bda3-fc5fc64b7af0}</destination>
 			<destination>{5c332565-0e15-4f30-ba52-f3d1931a8e29}</destination>
+			<destination>{f326b894-2406-4fb5-80cd-d04523cd4cdb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{86277e4b-caaa-4dad-842c-5d861b8aed98}" />
@@ -114,7 +119,38 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{12724fc7-30e2-46db-b179-c2e2244262d8}" />
+	<object class="MultibandEqEffect" id="{f986eb57-c8f8-4cb6-bda3-fc5fc64b7af0}">
+		<property name="filterTypeA">
+			<value>5</value>
+		</property>
+		<property name="filterTypeB">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>199.44838</value>
+		</property>
+		<property name="frequencyB">
+			<value>420.499817</value>
+		</property>
+		<property name="qualityA">
+			<value>0.623275876</value>
+		</property>
+		<property name="gainB">
+			<value>-6.20689583</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{5c332565-0e15-4f30-ba52-f3d1931a8e29}" />
+	<object class="MixerSend" id="{f326b894-2406-4fb5-80cd-d04523cd4cdb}">
+		<property name="level">
+			<value>-17</value>
+		</property>
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{4f1b1134-dc56-4cd0-bbf8-a60a3932efa5}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{99ed1406-1975-42ca-a5f2-ad0aa78f2ced}">
 		<relationship name="audioFile">
 			<destination>{82312b23-b335-4277-b96a-6e0a906d7458}</destination>

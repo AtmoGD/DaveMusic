@@ -66,6 +66,9 @@
 		<property name="maxVoices">
 			<value>1</value>
 		</property>
+		<property name="maximumDistance">
+			<value>25</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{7014714a-a475-4947-a781-cc434f660f51}" />
 	<object class="Timeline" id="{1b44e0d5-b009-422b-ae31-de5e10f6f65f}">
@@ -130,7 +133,11 @@
 	</object>
 	<object class="MixerBusFader" id="{661be400-f41e-4bfd-ac45-0aff26c30d82}" />
 	<object class="MixerBusFader" id="{33ed3e9f-6143-457f-81b8-d1fec66f0b51}" />
-	<object class="SpatialiserEffect" id="{e609cc09-9c8c-42bb-b923-ee4e19caf0ea}" />
+	<object class="SpatialiserEffect" id="{e609cc09-9c8c-42bb-b923-ee4e19caf0ea}">
+		<property name="maximumDistance">
+			<value>25</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{1074cce9-a37b-4f92-83ec-a3ef405a968f}">
 		<relationship name="audioFile">
 			<destination>{b0e6f1d5-b333-4070-84b6-1fc697e3d07d}</destination>

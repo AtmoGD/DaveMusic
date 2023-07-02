@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{5ad2cc5c-4fff-454c-841c-0e51094c5a8f}">
+		<property name="volume">
+			<value>-4.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{ae8bcfa4-ee24-4dea-bd7e-ee2b1ff59c73}</destination>
 		</relationship>
@@ -95,7 +98,9 @@
 	<object class="MixerBusPanner" id="{8a243652-a50f-4a71-be7b-9b267a201dc7}" />
 	<object class="MixerBusEffectChain" id="{ae8bcfa4-ee24-4dea-bd7e-ee2b1ff59c73}">
 		<relationship name="effects">
+			<destination>{d2353930-2da5-4204-b6b5-72dc62022341}</destination>
 			<destination>{542226f5-2081-40ef-b922-8e921a7f2c7a}</destination>
+			<destination>{2e24e4df-d8f5-4125-acc3-e3ad46e32068}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{28a1cfc3-4b4e-4fb4-9fc3-8e99fdbde3e3}" />
@@ -106,7 +111,29 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{6c86f49d-4901-4fa6-a465-074feb4a4a18}" />
+	<object class="MultibandEqEffect" id="{d2353930-2da5-4204-b6b5-72dc62022341}">
+		<property name="filterTypeA">
+			<value>5</value>
+		</property>
+		<property name="frequencyA">
+			<value>230.578033</value>
+		</property>
+		<property name="qualityA">
+			<value>0.840758622</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{542226f5-2081-40ef-b922-8e921a7f2c7a}" />
+	<object class="MixerSend" id="{2e24e4df-d8f5-4125-acc3-e3ad46e32068}">
+		<property name="level">
+			<value>-13</value>
+		</property>
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{4f1b1134-dc56-4cd0-bbf8-a60a3932efa5}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{4f82ed19-86cb-4bf8-a623-f6cba6241310}">
 		<relationship name="audioFile">
 			<destination>{a3b21e38-fe82-4beb-a1fa-cc3b7e75ed45}</destination>

@@ -8,7 +8,7 @@
 			<value>MENU_General_Select</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8c826aff-0fbd-4ca1-97c0-d6dfbcd94e7d}</destination>
@@ -105,6 +105,7 @@
 	<object class="MixerBusPanner" id="{dc246387-50af-4c67-aeef-1db67980487f}" />
 	<object class="MixerBusEffectChain" id="{4b2f44a3-b323-4cb6-bda9-d26ecb7fd8fc}">
 		<relationship name="effects">
+			<destination>{41c06f94-d0a5-4b3d-bb74-c4e59cbbe1e8}</destination>
 			<destination>{ac5d4be4-1c91-46cb-9815-3e6ee8bfe3fa}</destination>
 		</relationship>
 	</object>
@@ -115,5 +116,10 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{07db1ce1-3cba-484f-9aaa-37d23535f425}" />
+	<object class="PannerEffect" id="{41c06f94-d0a5-4b3d-bb74-c4e59cbbe1e8}">
+		<property name="overridingOutputFormat">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{ac5d4be4-1c91-46cb-9815-3e6ee8bfe3fa}" />
 </objects>
