@@ -65,7 +65,7 @@
 			<value>true</value>
 		</property>
 		<property name="maxVoices">
-			<value>8</value>
+			<value>4</value>
 		</property>
 		<property name="voiceStealing">
 			<value>2</value>
