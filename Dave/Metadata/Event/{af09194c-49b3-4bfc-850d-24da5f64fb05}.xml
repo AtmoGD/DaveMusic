@@ -116,6 +116,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{6da9d537-b867-4775-8391-f576ed1d9655}" />
 	<object class="MultiSound" id="{29c49a06-a388-4d02-8431-82b3cc088e12}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
@@ -189,6 +192,9 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{d7d6edfe-4b89-47c8-9139-4efdde56d0a3}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>1</value>
 		</property>
