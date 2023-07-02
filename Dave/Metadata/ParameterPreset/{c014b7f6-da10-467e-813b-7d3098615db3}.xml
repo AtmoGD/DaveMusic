@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{c014b7f6-da10-467e-813b-7d3098615db3}">
+		<property name="name">
+			<value>UI_Pop-up_Position</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1609a189-7305-4482-bbdb-10e6bf54630c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{92f74146-a715-4dad-bb2c-51fc4c277eea}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{92f74146-a715-4dad-bb2c-51fc4c277eea}">
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>
