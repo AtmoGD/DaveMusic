@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="SandboxScene" id="{7488c1e2-25e6-442f-8655-6533e98be5e1}">
+		<property name="name">
+			<value>Testing Stuff</value>
+		</property>
+		<relationship name="folder">
+			<destination>{3002c3aa-0301-4152-8de3-04fffec3f6d8}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{9201210d-d9ef-41b8-a049-56f5e0e7bb59}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{9d1fc395-e1a6-4b6e-9fec-e2f2637620d1}</destination>
+		</relationship>
+		<relationship name="listeners">
+			<destination>{65024e26-83b4-41d6-9832-6bf20dc1196e}</destination>
+			<destination>{4045f3d6-eb11-4f54-9c44-a8795982bc1d}</destination>
+		</relationship>
+		<relationship name="emitters">
+			<destination>{2af246bb-5527-4b48-9885-cc9efa29a2aa}</destination>
+		</relationship>
+	</object>
+	<object class="MarkerTrack" id="{9201210d-d9ef-41b8-a049-56f5e0e7bb59}" />
+	<object class="Timeline" id="{9d1fc395-e1a6-4b6e-9fec-e2f2637620d1}" />
+	<object class="SandboxListener" id="{65024e26-83b4-41d6-9832-6bf20dc1196e}">
+		<property name="positionX">
+			<value>15.0234394</value>
+		</property>
+		<property name="positionZ">
+			<value>-4.58474636</value>
+		</property>
+		<property name="rotationY">
+			<value>100.437195</value>
+		</property>
+	</object>
+	<object class="SandboxListener" id="{4045f3d6-eb11-4f54-9c44-a8795982bc1d}">
+		<property name="positionX">
+			<value>-0.775000036</value>
+		</property>
+		<property name="positionZ">
+			<value>2.17500019</value>
+		</property>
+		<property name="rotationY">
+			<value>-144.932007</value>
+		</property>
+	</object>
+	<object class="SandboxEmitter" id="{2af246bb-5527-4b48-9885-cc9efa29a2aa}">
+		<property name="positionX">
+			<value>-0.755099058</value>
+		</property>
+		<property name="positionZ">
+			<value>2.14817071</value>
+		</property>
+		<property name="rotationY">
+			<value>50.4251938</value>
+		</property>
+		<relationship name="event">
+			<destination>{da4007b0-2259-4132-9618-3c44a3099dbf}</destination>
+		</relationship>
+	</object>
+</objects>
